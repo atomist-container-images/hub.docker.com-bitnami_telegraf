@@ -95,6 +95,3 @@ FROM bitnami/telegraf:1.21.4-debian-10-r13
 
 # Tags: 1.21.4-debian-10-r12
 FROM bitnami/telegraf:1.21.4-debian-10-r12
-
-# Tags: 1.21.4-debian-10-r11
-FROM bitnami/telegraf:1.21.4-debian-10-r11
