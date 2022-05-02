@@ -1,12 +1,21 @@
-# Tags: latest, 1.22.3-debian-10-r0, 1.22.3, 1-debian-10, 1
+# Tags: latest, 1.22.3-debian-10-r3, 1.22.3, 1-debian-10, 1
 FROM bitnami/telegraf:latest
-FROM bitnami/telegraf:1.22.3-debian-10-r0
+FROM bitnami/telegraf:1.22.3-debian-10-r3
 FROM bitnami/telegraf:1.22.3
 FROM bitnami/telegraf:1-debian-10
 FROM bitnami/telegraf:1
 
 # Tags: _
 FROM bitnami/telegraf:_
+
+# Tags: 1.22.3-debian-10-r2
+FROM bitnami/telegraf:1.22.3-debian-10-r2
+
+# Tags: 1.22.3-debian-10-r1
+FROM bitnami/telegraf:1.22.3-debian-10-r1
+
+# Tags: 1.22.3-debian-10-r0
+FROM bitnami/telegraf:1.22.3-debian-10-r0
 
 # Tags: 1.22.2-debian-10-r2, 1.22.2
 FROM bitnami/telegraf:1.22.2-debian-10-r2
@@ -91,15 +100,3 @@ FROM bitnami/telegraf:1.22.0-debian-10-r11
 
 # Tags: 1.22.0-debian-10-r10
 FROM bitnami/telegraf:1.22.0-debian-10-r10
-
-# Tags: 1.22.0-debian-10-r9
-FROM bitnami/telegraf:1.22.0-debian-10-r9
-
-# Tags: 1.22.0-debian-10-r8
-FROM bitnami/telegraf:1.22.0-debian-10-r8
-
-# Tags: 1.22.0-debian-10-r7
-FROM bitnami/telegraf:1.22.0-debian-10-r7
-
-# Tags: 1.22.0-debian-10-r6
-FROM bitnami/telegraf:1.22.0-debian-10-r6
